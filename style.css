@@ -1,12 +1,11 @@
 h1 {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
-body{
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 .welcome-page{
     background-image: url('./apple-small.png');
+    background-size: 100% 100%;
+    min-height: 100vh;
+
 }
 a {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
