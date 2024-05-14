@@ -6,9 +6,85 @@
 
 body{
     background-image: url('../images/graphic-background-pattern-publicdomainvectors.org.png');
-    background-size: cover; 
+    background-size: 110%;
+    background-position: center; 
 }
+
+section{
+    flex-wrap: wrap;
+    padding: 10;
+    display: block;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.343);
+}
+
+
+
 
 #title{
     font-size: 7vw;
+}
+
+.blink{	
+    animation-name:blink2;
+    width:100%;
+    animation-duration: 2s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count:Infinite;
+    }
+  
+@keyframes blink{
+    0%{
+        color:rgb(0, 0, 0);
+    }
+    25%{
+        color:rgb(0,255,0);
+    }
+    50%{
+        color:rgb(0, 0, 0);
+    }
+    75%{
+        color:rgb(0,255,0);
+    }
+    100%{
+        color:rgb(0, 0, 0);
+    }
+}
+
+@keyframes blink2
+{
+    0%{
+        color:rgb(255, 0, 0);
+    }
+    10%{
+        color:black;
+    }
+    20%{
+        color:yellow;
+    }
+    30%{
+        color:black;
+    }
+    40%{
+        color: rgb(0, 255, 0);
+    }
+    50%{
+        color:black;
+    }
+    60%{
+        color:rgb(0, 255, 251);
+    }
+    70%{
+        color:black;
+    }
+    80%{
+        color:rgb(255, 0, 255);
+    }
+    90%{
+        color:black;
+    }
+    100%{
+        color:red;
+    }
+
 }
