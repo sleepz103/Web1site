@@ -15,6 +15,38 @@ body{
     padding: 10px;
 }
 
+
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    padding-top: 200px;
+    width: 20%;
+    height:100%;
+    position: fixed;
+    float:left;
+    overflow: auto;
+}
+nav ul li a{
+    display: block;
+    font-size: large;
+    padding: 16px 8px;
+    color: rgb(255, 82, 111);
+    background-color: rgb(247, 160, 174);
+    text-align: center;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:pink;
+    background-color: rgb(198, 69, 88);
+}
+
+.active{
+    color:pink;
+    background-color: rgb(198, 69, 88);
+}
+
+
 section{
     display: block;
     flex-wrap: wrap;
@@ -28,6 +60,23 @@ section{
 
 .section-image{
     width:100%;
+}
+
+.section-title{
+    font-weight: bold;
+}
+
+
+footer{
+    width:100%;
+    padding: 10px 0px 10px;
+    text-align: center;
+    background-color: rgb(196, 83, 83);
+    color: rgb(16, 15, 15);
+}
+
+footer p{
+    color: rgb(16, 15, 15);
 }
 
 
